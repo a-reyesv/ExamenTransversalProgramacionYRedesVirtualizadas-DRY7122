@@ -1,0 +1,16 @@
+
+#GESTION DE CLAVE - CURL DB
+
+*SignUp:
+curl -k -X POST -F 'username=Carlos Ortega' -F 'password=ortega'  'https://0.0.0.0:5000/signup/v2'
+curl -k -X POST -F 'username=Cesar Salas' -F 'password=salas'  'https://0.0.0.0:5000/signup/v2'
+curl -k -X POST -F 'username=Alvaro Reyes' -F 'password=reyes'  'https://0.0.0.0:5000/signup/v2'
+curl -k -X POST -F 'username=Roxana Espinoza' -F 'password=espinoza'  'https://0.0.0.0:5000/signup/v2'
+
+*Login:
+curl -k -X POST -F 'username=Carlos Ortega' -F 'password=ortega'  'https://0.0.0.0:5000/login/v2'
+curl -k -X POST -F 'username=Cesar Salas' -F 'password=salas'  'https://0.0.0.0:5000/login/v2'
+curl -k -X POST -F 'username=Alvaro Reyes' -F 'password=reyes' 'https://0.0.0.0:5000/login/v2'
+curl -k -X POST -F 'username=Roxana Espinoza' -F 'password=espinoza' 'https://0.0.0.0:5000/login/v2'
+
+
